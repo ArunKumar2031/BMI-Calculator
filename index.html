@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="one">
+        <center>
+            <h1>BMI Calculator</h1>
+            <form id="bmiForm" onsubmit="event.preventDefault(); calc();">
+                <table>
+                    <tr>
+                        <td>Enter Your Weight (kg):</td>
+                        <td><input id="weight" type="text" placeholder="Enter Your Weight"></td>
+                    </tr>
+                    <tr>
+                        <td>Enter Your Height (cm):</td>
+                        <td><input id="height" type="text" placeholder="Enter Your Height in Cm"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <button type="submit" id="Calculate">Calculate</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <p id="result"></p>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </div>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+/* style.css */
+
+/* Basic page setup */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f2ff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centering the content */
+#one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form container */
+form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+  color: #0077cc;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+}
+
+/* Input fields */
+input[type="text"] {
+  width: 90%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button styling */
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
